@@ -11,7 +11,7 @@ a {
   text-decoration: none;
   font-size: 1.2em;
   float: right;
-  padding-right: 20px;
+  padding-right: 2%;
 }
 
 input {
@@ -43,6 +43,11 @@ footer{
   font-size: 1.2em;
 }
 
+
+ul li, ol li {
+  list-style-position: inside;
+}
+
 .buttons:hover {
   color: #f0fc03;
   text-decoration: underline;
@@ -54,31 +59,31 @@ footer{
 }
 
 #text_block_3_about {
-  margin: 10px;
+  margin: 1%;
   font-size: 1.2em;
 }
 
 #block_x{
   background: white;
-  height: 20px;
+  height: 2.2vh;
   width: 18%;
   border: 2px solid;
-  margin-left: 20px;
-  margin-top: 60px;
+  margin-left: 2%;
+  margin-top: 3%;
   text-align: center;
-  line-height: 20px;
+  line-height: 2.2vh;
   float: left;
 }
 
 #block_y{
   background: white;
-  height: 20px;
+  height: 2.2vh;
   width: 18%;
   border: 2px solid;
-  margin-right: 20px;
-  margin-top: 60px;
+  margin-left: 2%;
+  margin-top: 3%;
   text-align: center;
-  line-height: 20px;
+  line-height: 2.2vh;
   float: right;
 }
 
@@ -124,37 +129,37 @@ footer{
 
 #text_block_2_index, #text_block_2_about {
   text-align: center;
-  margin: 10px;
+  margin: 1%;
   font-size: 1.2em;
   text-decoration: none;
 }
 
 #text_block_1_about {
   text-align: center;
-  margin: 10px;
-  font-size: 1em;
+  margin: 1%;
+  font-size: 1.1em;
   text-decoration: none;
 }
 
 #text_block_3_index{
   text-align: center;
-  margin: 20px;
+  margin: 3%;
   font-size: 1.2em;
 }
 
 .text_block_2_contacts {
   font-size: 1.2em;
-  margin: 10px;
+  margin: 1%;
 }
 
 #text_block_2_2_contacts {
-  margin-top: 200px;
+  margin-top: 20%;
 }
 
 #block_2 #img1, #block_2 #img2 {
   width: 45%;
   height: 43vh;
-  margin: 20px;
+  margin: 2%;
 }
 
 #img1 {
@@ -167,7 +172,8 @@ footer{
 
 #img3 {
   align-items: center;
-  margin: 15px;
+  margin-left, margin-right: 1.5%;
+  margin-top: 10vh;
   width: 90%;
   height: 30vh;
 }
@@ -175,22 +181,24 @@ footer{
 #block_2 #img4, #block_2 #img5 {
   width: 44%;
   height: 50vh;
-  margin-top: 50px;
+  margin-top: 5vh;
 }
 
 #img4 {
   float: left;
-  margin-left: 30px;
+  margin-left: 3%;
 }
 
 #img5 {
   float: right;
-  margin-right: 30px;
+  margin-right: 3%;
 }
 
 #block_1 ul, #block_1 h3, #block_1 ol, #block_3 h3{
-  margin: 30px;
+  margin-top: 3vh;
+  margin-left, margin-right: 3%;
   font-size: 1.2em;
+  list-style-position: inside;
 }
 
 #block_3_ol_faq, #block_3_ul_contacts, #block_1_ul_contacts {
@@ -202,7 +210,6 @@ footer{
 }
 
 #block_4 ul li {
-  margin: 5px;
   font-size: 1em;
 }
 
@@ -210,6 +217,27 @@ footer{
   font-size: 1.2em;
 }
 
-ul li, ol li {
-  margin: 10px;
+#block_4_h3 {
+  font-size: 1.2em;
+}
+
+#block_4_ul_index {
+  margin: 0.5%;
+}
+
+#block_1_index_ul {
+  margin: 2%;
+  list-style-position: inside;
+}
+
+#block_1_ol_faq {
+  margin: 2%;
+}
+
+#h3_block_4_faq {
+  font-size: 1.2em;
+}
+
+#text_block_4_faq {
+  font-size: 1.1em;
 }
